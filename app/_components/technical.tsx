@@ -16,7 +16,7 @@ const TechnicalSkill: React.FC = () => {
       {Object.keys(skills).map((category, index) => (
         <div key={index} className=" flex items-center ">
             <Dot size={32} className="inline-block" />
-          <h3 className="md:text-lg text-sm font-semibold mb-1 md:mr-4 mr-2">{category}:</h3>
+          <h3 className="md:text-lg text-sm font-semibold mb-1 md:mr-4 mr-1">{category}:</h3>
 
             {skills[category].map((skill, i) => (
               <p key={i} className= "md:text-lg text-sm md:mr-2 mr-1">{skill}</p>
