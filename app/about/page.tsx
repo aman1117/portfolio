@@ -4,32 +4,32 @@ const AboutMe: React.FC = () => {
   return (
     <div className="max-w-2xl mx-auto mt-2 mb-2 w-full h-full ">
       <section className="mb-4">
-        <h2 className="text-4xl font-bold mb-3">About</h2>
-        <p className="text-lg leading-5">
+        <h2 className="md:text-4xl text-3xl font-bold mb-3">About</h2>
+        <p className="md:text-lg leading-5">
           I&apos;m Aman Sharma, a Computer Science & Engineering student at NSUT, Delhi.
         </p>
-        <p className="text-lg leading-5 my-4">
+        <p className="md:text-lg leading-5 my-4">
           I&apos;m passionate about software development, with a focus on full-stack web projects and competitive programming.
         </p>
-        <p className="text-lg leading-5 my-4">
+        <p className="md:text-lg leading-5 my-4">
           I&apos;ve built applications like ShareCode and Growing Buddies, and<br/> I&apos;m proficient in C++, Golang, React, Nextjs and various web technologies.
         </p>
-        <p className="text-lg leading-5">
+        <p className="md:text-lg leading-5">
           Here&apos;s a copy of my <a href="/Aman.pdf" className="text-indigo-900 underline" download>resume.</a>
         </p>
       </section>
 
       <section className="mb-4">
-        <h2 className="text-2xl font-bold mb-1">Interests</h2>
-        <p className="text-lg leading-5">
+        <h2 className="md:text-2xl text-xl  font-bold mb-1">Interests</h2>
+        <p className="md:text-lg leading-5">
           I enjoy graphic design, philosophical literature, origami, and calligraphy. I lead the design team for my university&apos;s fine arts society. Here&apos;s some<span className="text-indigo-900 underline"> Stuff I Like</span>
         </p>
       </section>
 
       <section className="mb-4">
-        <h2 className="text-2xl font-bold mb-1">Find me online</h2>
+        <h2 className="md:text-2xl text-xl font-bold mb-1">Find me online</h2>
         <div className="flex ml-8">
-          <ul className="list-disc list-inside text-lg leading-5">
+          <ul className="list-disc list-inside md:text-lg leading-5">
             <li>
               I am <span className="text-indigo-900 underline">aman1117</span> on GitHub
             </li>
@@ -47,8 +47,8 @@ const AboutMe: React.FC = () => {
       </section>
 
       <section className="mb-4">
-        <h2 className="text-2xl font-bold mb-1">The Site</h2>
-        <p className="text-lg leading-5 ">
+        <h2 className="md:text-2xl text-xl font-bold mb-1">The Site</h2>
+        <p className="md:text-lg leading-5 ">
           This site is written in React18 using Typescript and Tailwind and Nextjs as framework.<br/> Currently, I am hosting this site on Vercel. The site is deployed to Vercel automatically as<br/> I push to GitHub.
         </p>
       </section>
