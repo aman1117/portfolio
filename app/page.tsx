@@ -1,4 +1,5 @@
 import ProjectsList from "./_components/projects";
+import TechnicalSkill from "./_components/technical";
 
 export default function Home() {
   return (
@@ -10,6 +11,9 @@ export default function Home() {
         </div>
           <div className=" mt-4">
         <ProjectsList />
+          </div>
+          <div className=" mt-4">
+        <TechnicalSkill />
           </div>
       </div>
   );
