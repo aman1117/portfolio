@@ -15,11 +15,11 @@ const TechnicalSkill: React.FC = () => {
       <h2 className="text-4xl font-bold mb-2">Technical Skills</h2>
       {Object.keys(skills).map((category, index) => (
         <div key={index} className=" flex items-center ">
-            <Dot size={32} className="inline-block" />
-          <h3 className="md:text-lg text-sm font-semibold mb-1 md:mr-4 mr-2">{category}:</h3>
+            <Dot size={32} className="inline-block -mb-1" />
+          <h3 className="md:text-lg text-xs font-semibold md:mr-4 mr-2 -mb-1">{category}:</h3>
 
             {skills[category].map((skill, i) => (
-              <p key={i} className= "md:text-lg text-sm md:mr-2 mr-1">{skill}</p>
+              <p key={i} className= "md:text-lg text-xs md:mr-2 mr-1 -mb-1">{skill}</p>
             ))}
 
         </div>
