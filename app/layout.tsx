@@ -13,6 +13,20 @@ const eb_garamond = EB_Garamond({
 export const metadata: Metadata = {
   title: "Home | Aman Sharma",
   description: "aman.sharma",
+  icons: {
+    icon: [
+      {
+        media: "(prefers-color-scheme: light)",
+        url: "/a.svg",
+        href: "/a.svg",
+      },
+      {
+        media: "(prefers-color-scheme: dark)",
+        url: "/a.svg",
+        href: "/a.svg",
+      },
+    ],
+  }
 };
 
 export default function RootLayout({
