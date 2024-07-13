@@ -4,7 +4,7 @@ import React from 'react';
 const TechnicalSkill: React.FC = () => {
   const skills: { [key: string]: string[] } = {
     'Programming Languages': ['Problem Solving,', 'C++,', 'Golang,', 'Python'],
-    'Web Development': [ 'HTML/CSS','TypeScript,', 'ReactJS,', 'Node.js,', 'NextJS'],
+    'Web Development': [ 'HTML/CSS,','TypeScript,', 'ReactJS,', 'Node.js,', 'NextJS'],
     'Databases': ['MySQL,', ' Google Firebase,', 'MongoDB,', 'PostgreSQL'],
     'Version Control': ['Git,', 'GitHub'],
     'Coursework': ['OOPS,', 'DBMS,', 'OS,', 'CN'],
