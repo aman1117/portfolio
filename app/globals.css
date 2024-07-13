@@ -21,12 +21,20 @@ body,
     --background-end-rgb: 0, 0, 0;
   }
 }
-
+@font-face {
+  font-family: "SourceSerifPro";
+  font-style: normal;
+  font-weight: 600;
+  src: local('SourceSerifPro SemiBold'), local('SourceSerifPro_600SemiBold'),
+       url('/fonts/SourceSerifPro_600SemiBold.woff2') format('woff2'),
+       url('/fonts/SourceSerifPro_600SemiBold.woff') format('woff'),
+       url('/fonts/SourceSerifPro_600SemiBold.ttf') format('truetype');
+}
 body {
   color: rgb(var(--foreground-rgb));
   background: white;
   color: black;
-  font-family: SourceSerifPro_600SemiBold;
+  font-family: "SourceSerifPro_600SemiBold";
 }
 
 @layer utilities {
