@@ -22,13 +22,15 @@ export default function RootLayout({
 }>) {
   return (  
     <html lang="en">
-      <body className={eb_garamond.className}  >
-        <div className="flex flex-col justify-end">
-        <Header />
-        {/* <Footer /> */}
-        {children }
+      <body className={eb_garamond.className}>
+        <div className="flex flex-col min-h-screen">
+          <div className="flex-grow">
+            <Header />
+            <main className="flex-grow">{children}</main>
+          </div>
+          <Footer />
         </div>
-        </body>
+      </body>
     </html>
   );
 }
