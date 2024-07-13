@@ -4,6 +4,7 @@ import Header from "./_components/header";
 
 import { EB_Garamond } from 'next/font/google'
 import Footer from "./_components/footer";
+import { SourceSerifPro_600SemiBold } from "@expo-google-fonts/source-serif-pro";
  
 const eb_garamond = EB_Garamond({
   weight: '400',
@@ -36,8 +37,12 @@ export default function RootLayout({
 }>) {
   return (  
     <html lang="en">
-      <body className={` px-3` }>
-        <div className="flex flex-col min-h-screen">
+      <body className={` px-3` } style={
+        {
+          fontFamily: 'SourceSerifPro_600SemiBold',
+        }
+      }>
+        <div className="flex flex-col min-h-screen" >
           <div className="flex-grow">
             <Header />
             <main className="flex-grow">{children}</main>
