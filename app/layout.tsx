@@ -2,11 +2,10 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "./_components/header";
 
-import { EB_Garamond } from 'next/font/google'
+import { Source_Serif_4 } from 'next/font/google'
 import Footer from "./_components/footer";
-import { SourceSerifPro_600SemiBold } from "@expo-google-fonts/source-serif-pro";
  
-const eb_garamond = EB_Garamond({
+const source_serif_4= Source_Serif_4({
   weight: '400',
   subsets: ['latin'],
 })
@@ -36,12 +35,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (  
-    <html lang="en" style={{
-      fontFamily: "SourceSerifPro_600SemiBold",
-    }}>
-      <body className={` px-3` } style={{
-        fontFamily: "SourceSerifPro_600SemiBold",
-      }}>
+    <html lang="en" >
+      <body className={`${source_serif_4.className}  px-3` } >
         <div className="flex flex-col min-h-screen" >
           <div className="flex-grow">
             <Header />
