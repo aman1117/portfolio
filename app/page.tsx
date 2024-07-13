@@ -12,7 +12,7 @@ export default function Home() {
           <div className=" mt-4">
         <ProjectsList />
           </div>
-          <div className=" mt-4">
+          <div className="mt-2">
         <TechnicalSkill />
           </div>
       </div>
