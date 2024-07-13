@@ -36,7 +36,7 @@ export default function RootLayout({
 }>) {
   return (  
     <html lang="en">
-      <body className={`${eb_garamond.className} px-3` }>
+      <body className={` px-3` }>
         <div className="flex flex-col min-h-screen">
           <div className="flex-grow">
             <Header />

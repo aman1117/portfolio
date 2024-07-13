@@ -1,10 +1,7 @@
-import { EB_Garamond } from "next/font/google";
+
 import Link from "next/link";
 
-const eb_garamond = EB_Garamond({
-  weight: "600",
-  subsets: ["latin"],
-});
+
 
 const Header = () => {
   return (
@@ -12,7 +9,7 @@ const Header = () => {
       <div className="md:py-4 py-3">
         <Link href="/">
           <p
-            className={`${eb_garamond.className} md:text-lg text-indigo-900 underline underline-offset-2`}
+            className={` md:text-lg text-indigo-900 font-bold underline underline-offset-2`}
           >
             aman.sharma
           </p>

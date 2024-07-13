@@ -4,7 +4,7 @@ const AboutMe: React.FC = () => {
   return (
     <div className="max-w-2xl mx-auto mt-2 mb-2 w-full h-full ">
       <section className="mb-4">
-        <h2 className="md:text-4xl text-3xl font-bold mb-3">About</h2>
+        <h2 className="md:text-4xl text-4xl font-semibold  mb-3">About</h2>
         <p className="md:text-lg md:leading-5 leading-tight">
           I&apos;m Aman Sharma, a Computer Science & Engineering student at NSUT, Delhi.
         </p>
