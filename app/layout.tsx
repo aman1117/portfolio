@@ -38,7 +38,7 @@ export default function RootLayout({
   return (  
     <html lang="en">
       <body className={` px-3` } style={{
-        fontFamily: 'SourceSerifPro_600SemiBold',
+        fontFamily: "SourceSerifPro_600SemiBold",
       }}>
         <div className="flex flex-col min-h-screen" >
           <div className="flex-grow">
