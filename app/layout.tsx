@@ -36,7 +36,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (  
-    <html lang="en">
+    <html lang="en" style={{
+      fontFamily: "SourceSerifPro_600SemiBold",
+    }}>
       <body className={` px-3` } style={{
         fontFamily: "SourceSerifPro_600SemiBold",
       }}>
