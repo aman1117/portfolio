@@ -22,14 +22,19 @@ const Header = () => {
           </Link>
         </div>
         <div>
+          <Link href="/projects
+          ">
           <p className="md:text-lg underline text-indigo-900 underline-offset-2">
             projects
           </p>
+          </Link>
         </div>
         <div>
+          <Link href="/contact">
           <p className="md:text-lg underline text-indigo-900 underline-offset-2">
             contact me
           </p>
+          </Link>
         </div>
       </div>
     </div>

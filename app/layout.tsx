@@ -4,8 +4,9 @@ import Header from "./_components/header";
 
 import { Source_Serif_4 } from 'next/font/google'
 import Footer from "./_components/footer";
- 
-const source_serif_4= Source_Serif_4({
+import { ThemeProvider } from "@/components/providers/theme-provider";
+
+const source_serif_4 = Source_Serif_4({
   weight: '400',
   subsets: ['latin'],
 })
@@ -33,15 +34,21 @@ export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
-}>) {
-  return (  
+}>) { 
+  return (
     <html lang="en" >
-      <body className={`${source_serif_4.className}  px-3` } >
+      <body className={`${source_serif_4.className} px-3`} >
         <div className="flex flex-col min-h-screen" >
-          <div className="flex-grow">
-            <Header />
-            <main className="flex-grow">{children}</main>
-          </div>
+          {/* <ThemeProvider attribute="class"
+              defaultTheme="system"
+              enableSystem
+              disableTransitionOnChange
+              storageKey="portfolio-theme-1"> */}
+            <div className="flex-grow">
+              <Header />
+              <main className="flex-grow">{children}</main>
+            </div>
+          {/* </ThemeProvider> */}
           <Footer />
         </div>
       </body>

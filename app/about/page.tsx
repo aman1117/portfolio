@@ -22,7 +22,7 @@ const AboutMe: React.FC = () => {
       <section className="mb-4">
         <h2 className="md:text-2xl text-xl  font-bold mb-1">Interests</h2>
         <p className="md:text-lg md:leading-5 leading-tight">
-          I enjoy graphic design, philosophical literature, origami, and calligraphy. I lead the design team for my university&apos;s fine arts society. Here&apos;s some <br/><span className="text-indigo-900 underline"> Stuff I Like</span>
+          I enjoy graphic design, philosophical literature, origami, and calligraphy. I lead the design team for my university&apos;s fine arts society. Here&apos;s some <br/><a href="/about/interests" className="text-indigo-900 underline"> Stuff I Like</a>
         </p>
       </section>
 
