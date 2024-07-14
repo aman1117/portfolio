@@ -2,7 +2,7 @@ import React from "react";
 
 const Interests: React.FC = () => {
     return (
-        <div className="max-w-2xl mx-auto mt-3 mb-4 bg-pink-50">
+        <div className="max-w-2xl mx-auto mt-3 mb-4 ">
             <h1 className="text-4xl font-bold mb-4">Interests</h1>
             <ul className="list-disc pl-5 space-y-3">
                 <li className="md:text-lg">
