@@ -1,15 +1,13 @@
 
 import Link from "next/link";
 
-
-
 const Header = () => {
   return (
     <div className="flex mx-auto max-w-2xl justify-between w-full h-full">
       <div className="md:py-4 py-3">
         <Link href="/">
           <p
-            className={` md:text-lg text-indigo-900 font-bold underline underline-offset-2`}
+            className="md:text-lg text-indigo-900 font-bold underline underline-offset-2"
           >
             aman.sharma
           </p>
