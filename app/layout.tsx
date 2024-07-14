@@ -38,7 +38,7 @@ export default function RootLayout({
 }>) { 
   return (
     <html lang="en" >
-      <body className={` px-3`} >
+      <body className={` px-3 border`} >
         <div className="flex flex-col min-h-screen" >
           {/* <ThemeProvider attribute="class"
               defaultTheme="system"
