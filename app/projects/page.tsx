@@ -44,14 +44,14 @@ const Projects = () => {
             {projects.map((project, index) => (
                 <div key={index} className="mb-8">
                     <h2 className="text-2xl font-semibold mb-2">{project.title}</h2>
-                    <p className="text-sm mb-3 italic">{project.technologies}</p>
+                    <p className="text-sm  mb-2 italic">{project.technologies}</p>
                     <div className="flex space-x-4 mb-3">
                         <a href={project.links.live} className="text-indigo-900  underline underline-offset-2">Live</a>
                         <a href={project.links.github} className="text-indigo-900  underline underline-offset-2">Github</a>
                     </div>
                     <ul className="list-disc list-inside">
                         {project.details.map((detail, idx) => (
-                            <li key={idx} className="mb-2 leading-5 text-lg">{detail}</li>
+                            <li key={idx} className="mb-2 text-black md:text-lg md:leading-5 leading-tight">{detail}</li>
                         ))}
                     </ul>
                 </div>

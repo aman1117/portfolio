@@ -6,7 +6,7 @@ const ContactPage: React.FC = () => {
       <p className="text-4xl font-bold mb-3 mr-1">Contact Me</p>
       <div className="mb-4">
         <p className="md:text-lg">
-          <strong>Email:</strong> <a href="mailto:arl0817osho@gmail.com" className="text-indigo-900 underline underline-offset-2">arl0817osho@gmail.com</a>
+          <strong>Email:</strong> <a href="mailto:arl0817osho@gmail.com" className="text-indigo-900 underline underline-offset-2 ">arl0817osho@gmail.com</a>
         </p>
         <p className="md:text-lg">
           <strong>Contact Number:</strong> <a href="tel:+919873453266" className="text-indigo-900 underline underline-offset-2">+91 9873453266</a>

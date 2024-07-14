@@ -2,7 +2,7 @@
 @font-face {
     font-family: 'CustomFont';
     src: url('/fonts/Aptos-Serif.ttf') format('truetype'),
-         url('/fonts/Aptos-Serif-Bold.ttf') format('truetype');
+         url('/fonts/Aptos-Serif-Italic.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
