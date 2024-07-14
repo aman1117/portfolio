@@ -4,7 +4,7 @@ const projects = [
     {
         title: "SHARECODE",
         technologies: "Next.js 13, Golang, PostgreSQL, CloudFlare R2, Redis, Tailwind",
-        links: { live: "#", github: "#" },
+        links: { live: "https://shc-frontend-two.vercel.app/", github: "https://github.com/aman1117/shc-backend" },
         details: [
             "Developed a file-sharing service with a backend using Go and PostgreSQL, implementing JWT authentication and integrating Cloudflare R2 for file storage.",
             "Created a CLI client in Python for seamless interaction with the service, enabling terminal-based file upload, download, and sharing.",
@@ -15,7 +15,7 @@ const projects = [
     {
         title: "GROWING BUDDIES",
         technologies: "Next.js 13, React, Convex, Tailwind",
-        links: { live: "#", github: "#" },
+        links: { live: "https://growing-buddies-seven.vercel.app/", github: "https://github.com/aman1117/growing_buddies" },
         details: [
             "Developed a full-stack Notion clone with a Notion-style editor, cover images, nested documents, public publishing, and real-time updates.",
             "Real-time Database Integration: Integrated a real-time database for dynamic data updates.",
@@ -27,7 +27,7 @@ const projects = [
     {
         title: "AUTO ANALYTICS",
         technologies: "ReactJS, MUI, ChartJS, Flask, Pandas",
-        links: { live: "#", github: "#" },
+        links: { live: "https://autoanalytics.vercel.app/", github: "https://github.com/aman1117/auto-analytics" },
         details: [
             "Developed a full-stack web application with React.js and Flask, featuring:",
             "Dashboard: Summarized data with tables and graphics.",
