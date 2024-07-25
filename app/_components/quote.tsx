@@ -12,6 +12,7 @@ const fetchServerData = async () => {
 
 const Quote = async () => {
   const data = await fetchServerData();
+  if (!data) return null;
   return (
     <div className="flex items-center justify-between gap-x-2">
       <div>
