@@ -1,13 +1,10 @@
 import Link from "next/link";
-import Quote from "./quote";
 
 const Header = () => {
   return (
     <>
       <div className="flex-col mx-auto max-w-2xl items-center justify-center  w-full h-full">
-        <div className="border-b">
-          <Quote />
-        </div>
+        <div className="border-b"></div>
         <div className="flex items-center justify-between ">
           <div className="md:pb-4 pb-3 pt-1">
             <Link href="/">
