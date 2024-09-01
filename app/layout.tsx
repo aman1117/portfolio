@@ -35,7 +35,7 @@ export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
-}>) { 
+}>) {
   return (
     <html lang="en" >
       <body className={` px-3 border`} >
@@ -45,10 +45,10 @@ export default function RootLayout({
               enableSystem
               disableTransitionOnChange
               storageKey="portfolio-theme-1"> */}
-            <div className="flex-grow">
-              <Header />
-              <main className="flex-grow">{children}</main>
-            </div>
+          <div className="flex-grow">
+            <Header />
+            <main className="flex-grow">{children}</main>
+          </div>
           {/* </ThemeProvider> */}
           <Footer />
         </div>

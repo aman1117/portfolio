@@ -7,8 +7,9 @@ export default function Home() {
       <div>
         <p className="text-black md:text-lg md:leading-5 leading-tight">
           This is the homepage of Aman Sharma, a 4th year BTech CSE student.<br />
-          Knight at LeetCode with a passion for competitive programming.
-          <br />
+          <span className="font-bold">
+            Knight
+          </span> at LeetCode with a passion for competitive programming.
           <br />
           Experienced in backend (Go) and frontend (React.js, Next.js) development.
         </p>
