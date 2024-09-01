@@ -9,7 +9,7 @@ export default function Home() {
           This is the homepage of Aman Sharma, a 4th year BTech CSE student.<br />
           <span className="font-bold">
             Knight
-          </span> at LeetCode with a passion for competitive programming.
+          </span> at LeetCode.
           <br />
           Experienced in backend (Go) and frontend (React.js, Next.js) development.
         </p>
