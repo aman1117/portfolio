@@ -32,6 +32,16 @@ const Header = () => {
               </Link>
             </div>
             <div>
+              <Link
+                href="/experience
+          "
+              >
+                <p className="md:text-lg underline text-indigo-900 underline-offset-2">
+                  experience
+                </p>
+              </Link>
+            </div>
+            <div>
               <Link href="/contact">
                 <p className="md:text-lg underline text-indigo-900 underline-offset-2">
                   contact me
