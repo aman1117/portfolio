@@ -37,7 +37,7 @@ const Header = () => {
           "
               >
                 <p className="md:text-lg underline text-indigo-900 underline-offset-2">
-                  experience
+                  exp
                 </p>
               </Link>
             </div>
