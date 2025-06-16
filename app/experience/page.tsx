@@ -9,18 +9,18 @@ const ContactPage: React.FC = () => {
                     <h2 className="text-2xl font-semibold mb-2">Shipsy, Software Engineer Intern</h2>
                     <p className="text-sm   italic"><strong>Jan 2025 - Present</strong></p>
                     <p className="text-sm  mb-4 italic"><strong> Gurgaon, onsite</strong></p>
-                    <ul className="list-disc list-inside mt-2 space-y-1 text-sm">
-                        <li className='mb-2 text-black md:text-lg md:leading-5 leading-tight'>
+                    <ul className="list-disc list-inside mt-2 space-y-1">
+                        <li className="mb-2 text-black md:text-lg md:leading-5 leading-tight">
                             Developed a comprehensive finance mobile web view UI for <strong>QuipUp</strong>, integrating APIs for riders to access their financial information with adaptable client-specific configurations.
                         </li>
-                        <li className='mb-2 text-black md:text-lg md:leading-5 leading-tight'>
+                        <li className="mb-2 text-black md:text-lg md:leading-5 leading-tight">
                             Optimized bulk pickup processing by implementing <code className='bg-gray-50 border rounded-sm'>Promise.all</code> for concurrent conflict resolution and database operations, resulting in a <strong>3x speedup</strong> of API performance.
                         </li>
-                        <li className='mb-2 text-black md:text-lg md:leading-5 leading-tight'>
+                        <li className="mb-2 text-black md:text-lg md:leading-5 leading-tight">
                             Delivered a <strong>hyper-local phone-exchange module</strong> for Flipkart, enabling doorstep device swaps in <strong>10–15 minutes</strong> through real-time assessment checks.
                         </li>
-                        <li className='mb-2 text-black md:text-lg md:leading-5 leading-tight'>
-                            Designed and rolled out an <strong>ad-hoc pickup flow</strong> for Movin that lets riders collect consignments not yet registered in the hub manager’s ops dashboard, eliminating manual entry.
+                        <li className="mb-2 text-black md:text-lg md:leading-5 leading-tight">
+                            Designed and rolled out an <strong>ad-hoc pickup flow</strong> for Movin that lets riders collect consignments not yet registered in the hub manager's ops dashboard, eliminating manual entry.
                         </li>
                     </ul>
                 </div>

@@ -20,11 +20,6 @@ const ProjectsList: React.FC = () => {
       description: 'Built a Notion-like app with rich text editing, nested docs, public sharing, and live updates.',
       link: 'https://growing-buddies-seven.vercel.app/',
     },
-    {
-      name: 'Auto Analytics',
-      description: 'Built a React and Flask web app with a data dashboard, analysis tools featuring charts, and ARIMA-based sales forecasting.',
-      link: 'https://autoanalytics.vercel.app/',
-    },
   ];
 
   return (

@@ -3,26 +3,33 @@ import React from 'react';
 const AboutMe: React.FC = () => {
   return (
     <div className="max-w-2xl mx-auto mt-2 mb-2 w-full h-full ">
-      <section className="mb-4 ">
+      <section className="mb-4">
         <h2 className="md:text-4xl text-4xl font-semibold mr-8 mb-3">About</h2>
-        <p className="md:text-lg md:leading-5 leading-tight ">
-          I&apos;m Aman Sharma, a Computer Science & Engineering student at NSUT, Delhi.
+        <p className="md:text-lg md:leading-5 leading-tight">
+          I&apos;m Aman Sharma, a Computer Science & Engineering student at NSUT, Delhi (CGPA: 7.68).
         </p>
         <p className="md:text-lg md:leading-5 my-4 leading-tight">
           I&apos;m passionate about software development, with a focus on full-stack web projects and competitive programming.
         </p>
         <p className="md:text-lg md:leading-5 my-4 leading-tight">
-          I&apos;ve built applications like ShareCode and Growing Buddies, and<br/> I&apos;m proficient in C++, Golang, React, Nextjs and various web technologies.
+          At Shipsy, I developed finance and logistics modules, optimized API performance by 3x, and delivered real-time solutions for clients like Flipkart and Movin.
+        </p>
+        <p className="md:text-lg md:leading-5 my-4 leading-tight">
+          Currently at Ethos, I&apos;m streamlining backend workflows for feature launches using Optimizely.
+        </p>
+        <p className="md:text-lg md:leading-5 my-4 leading-tight">
+          I&apos;ve built apps like ShareCode and Growing Buddies, and I&apos;m proficient in C++, Golang, React, Next.js, and modern web tech.
         </p>
         <p className="md:text-lg md:leading-5 leading-tight">
           Here&apos;s a copy of my <a href="/Aman.pdf" className="text-indigo-900 underline" download>resume.</a>
         </p>
       </section>
 
+
       <section className="mb-4">
         <h2 className="md:text-2xl text-xl  font-bold mb-1">Interests</h2>
         <p className="md:text-lg md:leading-5 leading-tight">
-          I enjoy graphic design, philosophical literature, origami, and calligraphy. I lead the design team for my university&apos;s fine arts society. Here&apos;s some <br/><a href="/about/interests" className="text-indigo-900 underline"> Stuff I Like</a>
+          I enjoy graphic design, philosophical literature, origami, and calligraphy. I lead the design team for my university&apos;s fine arts society. Here&apos;s some <br /><a href="/about/interests" className="text-indigo-900 underline"> Stuff I Like</a>
         </p>
       </section>
 
