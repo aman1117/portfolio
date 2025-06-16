@@ -20,7 +20,7 @@ const ContactPage: React.FC = () => {
                             Delivered a <strong>hyper-local phone-exchange module</strong> for Flipkart, enabling doorstep device swaps in <strong>10–15 minutes</strong> through real-time assessment checks.
                         </li>
                         <li className="mb-2 text-black md:text-lg md:leading-5 leading-tight">
-                            Designed and rolled out an <strong>ad-hoc pickup flow</strong> for Movin that lets riders collect consignments not yet registered in the hub manager's ops dashboard, eliminating manual entry.
+                            Designed and rolled out an <strong>ad-hoc pickup flow</strong> for Movin that lets riders collect consignments not yet registered in the hub manager&apos;s ops dashboard, eliminating manual entry.
                         </li>
                     </ul>
                 </div>
