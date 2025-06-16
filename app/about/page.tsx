@@ -37,6 +37,9 @@ const AboutMe: React.FC = () => {
               I am <a href="https://leetcode.com/u/aman1117/" target="_blank" className="text-indigo-900 underline">aman1117</a> on Leetcode
             </li>
             <li>
+              I am <a href="https://codeforces.com/profile/aman1117" target="_blank" className="text-indigo-900 underline underline-offset-2">aman1117</a> on Codeforces
+            </li>
+            <li>
               I am <a href="https://www.linkedin.com/in/aman1117/" target="_blank" className="text-indigo-900 underline">aman1117</a> on LinkedIn
             </li>
             <li>
