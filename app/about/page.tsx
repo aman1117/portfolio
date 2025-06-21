@@ -6,19 +6,19 @@ const AboutMe: React.FC = () => {
       <section className="mb-4">
         <h2 className="md:text-4xl text-4xl font-semibold mr-8 mb-3">About</h2>
         <p className="md:text-lg md:leading-5 leading-tight">
-          I&apos;m Aman Sharma, a 2025 graduate with a B.Tech in Computer Science & Engineering from NSUT, Delhi.
+          I&apos;m <strong>Aman Sharma</strong>, a <strong>2025 graduate</strong> with a <strong>B.Tech in Computer Science & Engineering</strong> from <strong>NSUT, Delhi</strong>.
         </p>
         <p className="md:text-lg md:leading-5 my-4 leading-tight">
-          I&apos;m passionate about software development, with a focus on full-stack web projects and competitive programming.
+          I&apos;m passionate about <strong>software development</strong>, with a focus on <strong>full-stack web projects</strong> and <strong>competitive programming</strong>.
         </p>
         <p className="md:text-lg md:leading-5 my-4 leading-tight">
-          At Shipsy, I developed finance and logistics modules, optimized API performance by 3x, and delivered real-time solutions for clients like Flipkart and Movin.
+          At <strong>Shipsy</strong>, I developed <strong>finance and logistics modules</strong>, <strong>optimized API performance by 3x</strong>, and delivered real-time solutions for clients like <strong>Flipkart and Movin</strong>.
         </p>
         <p className="md:text-lg md:leading-5 my-4 leading-tight">
-          Currently at Ethos, I&apos;m streamlining backend workflows for feature launches using Optimizely.
+          Currently at <strong>Ethos</strong>, I&apos;m <strong>streamlining backend workflows</strong> for feature launches using <strong>Optimizely</strong>.
         </p>
         <p className="md:text-lg md:leading-5 my-4 leading-tight">
-          I&apos;ve built apps like ShareCode and Growing Buddies, and I&apos;m proficient in C++, Golang, React, Next.js, and modern web tech.
+          I&apos;ve built apps like <strong>ShareCode</strong> and <strong>Growing Buddies</strong>, and I&apos;m proficient in <strong>C++, Golang, React, Next.js, and modern web tech</strong>.
         </p>
         <p className="md:text-lg md:leading-5 leading-tight">
           Here&apos;s a copy of my <a href="/Aman.pdf" className="text-indigo-900 underline" download>resume.</a>
