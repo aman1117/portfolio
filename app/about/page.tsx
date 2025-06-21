@@ -6,7 +6,7 @@ const AboutMe: React.FC = () => {
       <section className="mb-4">
         <h2 className="md:text-4xl text-4xl font-semibold mr-8 mb-3">About</h2>
         <p className="md:text-lg md:leading-5 leading-tight">
-          I&apos;m Aman Sharma, a Computer Science & Engineering student at NSUT, Delhi (CGPA: 7.68).
+          I&apos;m Aman Sharma, a 2025 graduate with a B.Tech in Computer Science & Engineering from NSUT, Delhi.
         </p>
         <p className="md:text-lg md:leading-5 my-4 leading-tight">
           I&apos;m passionate about software development, with a focus on full-stack web projects and competitive programming.
