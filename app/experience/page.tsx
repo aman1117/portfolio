@@ -8,7 +8,7 @@ const ContactPage: React.FC = () => {
                 <div >
                     <h2 className="text-2xl font-semibold mb-2">Ethos, Software Engineer</h2>
                     <p className="text-sm italic"><strong>June 2025 – Present</strong></p>
-                    <p className="text-sm mb-4 italic"><strong>Bangalore</strong></p>
+                    <p className="text-sm mb-4 italic"><strong>Bangalore, onsite</strong></p>
                     <ul className="list-disc list-inside mt-2 space-y-1">
                         <li className="mb-2 text-black md:text-lg md:leading-5 leading-tight">
                             Refactored and cleaned up backend redundant lags used for launching new feature using <strong>Optimizely</strong>.
