@@ -6,7 +6,8 @@ const Header = () => {
       <div className="flex-col mx-auto max-w-2xl items-center justify-center  w-full h-full">
         <div className="border-b"></div>
         <div className="flex items-center justify-between ">
-          <div className="md:pb-4 pb-3 pt-1">
+          {/* <div className="md:pb-4 pb-3 pt-1"> */}
+          <div className="flex gap-2 items-center justify-center">
             <Link href="/">
               <p className="md:text-lg text-indigo-900 font-bold underline underline-offset-2">
                 aman.sharma
