@@ -16,7 +16,7 @@ const TechnicalSkill: React.FC = () => {
       {
         Object.keys(skills).map((skill, index) => (
           <div key={index} className="flex items-start mb-2">
-            <Dot size={32} className="inline-block" />
+            <Dot size={32} className="flex-shrink-0" />
             <div>
               <h3 className="text-black md:text-lg md:leading-5 leading-tight font-semibold">
                 {skill}

@@ -28,7 +28,7 @@ const ProjectsList: React.FC = () => {
       <p className="text-black md:text-lg md:leading-5 leading-tight mb-3">links to projects here and elsewhere</p>
       {projects.map((project, index) => (
         <div key={index} className="flex items-start mb-2">
-          <Dot size={32} className="inline-block" />
+          <Dot size={32} className="flex-shrink-0" />
           <div>
             <h3 className="text-black md:text-lg md:leading-5 leading-tight ">
               <a href={project.link} className="text-indigo-900 underline">{project.name}</a>
