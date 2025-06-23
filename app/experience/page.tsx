@@ -4,17 +4,17 @@ const ContactPage: React.FC = () => {
     return (
         <div className="max-w-2xl mx-auto mt-2 mb-10 w-full h-full flex flex-col">
             <p className="text-4xl font-bold mb-3 mr-1">Experience</p>
-            <div >
-                <h2 className="text-2xl font-semibold mb-2">Ethos, Software Engineer</h2>
-                <p className="text-sm italic"><strong>June 2025 – Present</strong></p>
-                <p className="text-sm mb-4 italic"><strong>Bangalore</strong></p>
-                <ul className="list-disc list-inside mt-2 space-y-1">
-                    <li className="mb-2 text-black md:text-lg md:leading-5 leading-tight">
-                        Refactored and cleaned up backend redundant lags used for launching new feature using <strong>Optimizely</strong>.
-                    </li>
-                </ul>
-            </div>
-            <div >
+            <div className="flex flex-col gap-4">
+                <div >
+                    <h2 className="text-2xl font-semibold mb-2">Ethos, Software Engineer</h2>
+                    <p className="text-sm italic"><strong>June 2025 – Present</strong></p>
+                    <p className="text-sm mb-4 italic"><strong>Bangalore</strong></p>
+                    <ul className="list-disc list-inside mt-2 space-y-1">
+                        <li className="mb-2 text-black md:text-lg md:leading-5 leading-tight">
+                            Refactored and cleaned up backend redundant lags used for launching new feature using <strong>Optimizely</strong>.
+                        </li>
+                    </ul>
+                </div>
                 <div >
                     <h2 className="text-2xl font-semibold mb-2">Shipsy, Software Engineer Intern</h2>
                     <p className="text-sm   italic"><strong>Jan 2025 - May 2025</strong></p>
