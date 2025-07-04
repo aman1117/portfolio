@@ -6,7 +6,10 @@ const ContactPage: React.FC = () => {
             <p className="text-4xl font-bold mb-3 mr-1">Experience</p>
             <div className="flex flex-col gap-4">
                 <div >
-                    <h2 className="text-2xl font-semibold mb-2">Ethos, Software Engineer</h2>
+                    <div className="flex items-center mb-2">
+                        <img src="/ethos_logo.jpg" alt="Ethos Logo" className="w-7 h-7 mr-2 rounded" />
+                        <h2 className="text-2xl font-semibold">Ethos, Software Engineer</h2>
+                    </div>
                     <p className="text-sm italic"><strong>June 2025 – Present</strong></p>
                     <p className="text-sm mb-4 italic"><strong>Bangalore, onsite</strong></p>
                     <ul className="list-disc list-inside mt-2 space-y-1">
@@ -16,7 +19,10 @@ const ContactPage: React.FC = () => {
                     </ul>
                 </div>
                 <div >
-                    <h2 className="text-2xl font-semibold mb-2">Shipsy, Software Engineer Intern</h2>
+                    <div className="flex items-center mb-2">
+                        <img src="/shipsy_logo.jpeg" alt="Shipsy Logo" className="w-7 h-7 mr-2 rounded" />
+                        <h2 className="text-2xl font-semibold">Shipsy, Software Engineer Intern</h2>
+                    </div>
                     <p className="text-sm   italic"><strong>Jan 2025 - May 2025</strong></p>
                     <p className="text-sm  mb-4 italic"><strong> Gurgaon, onsite</strong></p>
                     <ul className="list-disc list-inside mt-2 space-y-1">
