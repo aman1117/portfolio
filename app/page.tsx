@@ -11,7 +11,7 @@ export default function Home() {
           <p className="text-black text-base leading-tight">
             This is the homepage of <span className="font-bold">Aman Sharma</span>.<br/>
             <hr className="m-.5 border-transparent" />
-            Software Engineer at <span className="font-bold">Ethos</span>
+            Engineer at <span className="font-bold">Ethos</span>
             <img
               src="/ethos_logo.jpg"
               alt="Ethos Logo"
