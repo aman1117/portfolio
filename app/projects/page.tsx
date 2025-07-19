@@ -31,20 +31,6 @@ const projects = [
       "File Management: Enabled file upload, delete, replace, and recovery features.",
     ],
   },
-  {
-    title: "AUTO ANALYTICS",
-    technologies: "ReactJS, MUI, ChartJS, Flask, Pandas",
-    links: {
-      live: "https://autoanalytics.vercel.app/",
-      github: "https://github.com/aman1117/auto-analytics",
-    },
-    details: [
-      "Developed a full-stack web application with React.js and Flask, featuring:",
-      "Dashboard: Summarized data with tables and graphics.",
-      "Data Analyser: Provided filters and sorting tools with visual representations like line and bar charts.",
-      "Sales Forecaster: Implemented ARIMA model for time series analysis to forecast future sales.",
-    ],
-  },
 ];
 
 const Projects = () => {
