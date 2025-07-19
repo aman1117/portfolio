@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutMe: React.FC = () => {
   return (
-    <div className="max-w-2xl mx-auto mt-2 mb-2 w-full h-full ">
+    <div className="max-w-2xl mx-auto mt-2 mb-2 w-full h-full border-1 border-black-500  p-4 shadow-md bg-white ">
       <section className="mb-4">
         <h2 className="md:text-4xl text-4xl font-semibold mr-8 mb-3">About</h2>
         <p className="md:text-lg md:leading-5 leading-tight">
@@ -25,14 +25,14 @@ const AboutMe: React.FC = () => {
         </p>
       </section>
 
-
+      <hr className="my-2 border-gray-100" />
       <section className="mb-4">
         <h2 className="md:text-2xl text-xl  font-bold mb-1">Interests</h2>
         <p className="md:text-lg md:leading-5 leading-tight">
           I enjoy graphic design, philosophical literature, origami, and calligraphy. I lead the design team for my university&apos;s fine arts society. Here&apos;s some <br /><a href="/about/interests" className="text-indigo-900 underline"> Stuff I Like</a>
         </p>
       </section>
-
+      <hr className="my-2 border-gray-100" />
       <section className="mb-4">
         <h2 className="md:text-2xl text-xl font-bold mb-1">Find me online</h2>
         <div className="flex ml-8">
@@ -55,7 +55,7 @@ const AboutMe: React.FC = () => {
           </ul>
         </div>
       </section>
-
+      <hr className="my-2 border-gray-100" />
       <section className="mb-4">
         <h2 className="md:text-2xl text-xl font-bold mb-1">The Site</h2>
         <p className="md:text-lg md:leading-5 leading-tight">

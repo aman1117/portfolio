@@ -38,7 +38,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" >
-      <body className={` px-3 border bg-gray-100`} >
+      <body className={` px-3 border bg-gray-50`} >
         <div className="flex flex-col min-h-screen " >
           <div className="flex-grow">
             <Header />

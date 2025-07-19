@@ -2,7 +2,7 @@ import React from 'react';
 
 const ContactPage: React.FC = () => {
   return (
-    <div className="max-w-2xl mx-auto mt-2 mb-10 w-full h-full flex flex-col">
+    <div className="max-w-2xl mx-auto mt-2 mb-10 w-full h-full flex flex-col border-1 border-black-500  p-4 shadow-md bg-white ">
       <p className="text-4xl font-bold mb-3 mr-1">Contact Me</p>
       <div className="mb-4">
         <p className="md:text-lg">

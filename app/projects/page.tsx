@@ -49,7 +49,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className=" mx-auto max-w-2xl mt-1">
+    <div className=" mx-auto max-w-2xl mt-1 border-1 border-black-500  p-4 shadow-md bg-white ">
       <h1 className="text-4xl font-bold mb-4">Projects</h1>
       {projects.map((project, index) => (
         <div key={index} className="mb-8">
@@ -79,6 +79,7 @@ const Projects = () => {
               </li>
             ))}
           </ul>
+          {index < projects.length - 1 && <hr className="border-gray-100" />}
         </div>
       ))}
     </div>

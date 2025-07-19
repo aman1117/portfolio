@@ -3,8 +3,7 @@ import Link from "next/link";
 const Header = () => {
   return (
     <>
-      <div className="flex-col mx-auto max-w-2xl items-center justify-center  w-full h-full">
-        <div className="border-b"></div>
+      <div className="flex-col mx-auto max-w-2xl items-center justify-center  w-full h-full border-1 border-black-500  p-4 shadow-md bg-white ">
         <div className="flex items-center justify-between ">
           {/* <div className="md:pb-4 pb-3 pt-1"> */}
           <div className="flex gap-2 items-center justify-center">
