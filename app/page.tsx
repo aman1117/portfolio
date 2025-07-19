@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="flex flex-col w-full h-full py-4 max-w-2xl mx-auto">
       {/* Always two columns, text on left, pic on right */}
-      <div className="flex items-start justify-between">
+      <div className="flex items-start justify-between border-1 border-black-500  p-4 shadow-md bg-white  ">
         {/* Left: text takes ~2/3 */}
         <div className="w-2/3 pr-4 mt-2">
           <p className="text-black text-base leading-tight">
@@ -46,10 +46,10 @@ export default function Home() {
       </div>
 
       {/* Rest of your page */}
-      <div className="mt-4">
+      <div className="mt-4 border-1 border-black-500  p-4 shadow-md bg-white ">
         <ProjectsList />
       </div>
-      <div className="mt-2">
+      <div className="mt-2 border-1 border-black-500  p-4 shadow-md bg-white ">
         <TechnicalSkill />
       </div>
     </div>

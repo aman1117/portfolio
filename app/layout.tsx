@@ -38,13 +38,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" >
-      <body className={` px-3 border`} >
-        <div className="flex flex-col min-h-screen" >
-          {/* <ThemeProvider attribute="class"
-              defaultTheme="system"
-              enableSystem
-              disableTransitionOnChange
-              storageKey="portfolio-theme-1"> */}
+      <body className={` px-3 border bg-gray-100`} >
+        <div className="flex flex-col min-h-screen " >
           <div className="flex-grow">
             <Header />
             <main className="flex-grow">{children}</main>
