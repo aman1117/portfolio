@@ -17,10 +17,17 @@ export default function Home() {
               className="inline-block h-5 w-5 ml-1 align-text-bottom"
             />
             <br/>
-            <span className="font-bold">Knight</span> at LeetCode
+            <span className="font-bold ">Knight</span> at LeetCode
             <img
               src="/leetcode_logo.png"
               alt="LeetCode Logo"
+              className="inline-block h-5 w-5 ml-1 align-text-bottom"
+            />
+            <br/>
+            <span className="font-bold text-[#808080]">Newbie</span> at Codeforces 
+            <img
+              src="/codeforces_logo.png"
+              alt="Codeforces Logo"
               className="inline-block h-5 w-5 ml-1 align-text-bottom"
             />
             <br/>
