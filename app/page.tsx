@@ -5,38 +5,49 @@ export default function Home() {
   return (
     <div className="flex flex-col w-full h-full py-4 max-w-2xl mx-auto">
       {/* Always two columns, text on left, pic on right */}
-      <div className="flex items-start justify-between border-1 border-black-500  p-4 shadow-md bg-white  ">
+      <div className="flex items-start justify-between">
         {/* Left: text takes ~2/3 */}
         <div className="w-2/3 pr-4">
-          <p className="text-black text-base leading-tight">
-            This is the homepage of <span className="font-bold">Aman Sharma</span>.<br/>
+          <div className="text-black text-base leading-tight">
+            <span>
+              This is the homepage of <span className="font-bold">Aman Sharma</span>.
+            </span>
+            <br />
             <hr className="m-.5 border-transparent" />
-            Engineer at <span className="font-bold">Ethos</span>
-            <img
-              src="/ethos_logo.jpg"
-              alt="Ethos Logo"
-              className="inline-block h-5 w-5 ml-1 align-text-bottom"
-            />
-            <br/>
+            <span>
+              Software Engineer at <span className="font-bold">Ethos</span>
+              <img
+                src="/ethos_logo.jpg"
+                alt="Ethos Logo"
+                className="inline-block h-5 w-5 ml-1 align-text-bottom"
+              />
+            </span>
+            <br />
             <hr className="m-.5 border-transparent" />
-            <span className="font-bold ">Knight</span> at LeetCode
-            <img
-              src="/leetcode_logo.png"
-              alt="LeetCode Logo"
-              className="inline-block h-5 w-5 ml-1 align-text-bottom"
-            />
-            <br/>
+            <span>
+              <span className="font-bold ">Knight</span> at LeetCode
+              <img
+                src="/leetcode_logo.png"
+                alt="LeetCode Logo"
+                className="inline-block h-5 w-5 ml-1 align-text-bottom"
+              />
+            </span>
+            <br />
             <hr className="m-.5 border-transparent" />
-            <span className="font-bold text-[#808080]">Newbie</span> at Codeforces 
-            <img
-              src="/codeforces_logo.png"
-              alt="Codeforces Logo"
-              className="inline-block h-5 w-5 ml-1 align-text-bottom"
-            />
-            <br/>
+            <span>
+              <span className="font-bold text-[#808080]">Newbie</span> at Codeforces 
+              <img
+                src="/codeforces_logo.png"
+                alt="Codeforces Logo"
+                className="inline-block h-5 w-5 ml-1 align-text-bottom"
+              />
+            </span>
+            <br />
             <hr className="m-.5 border-transparent" />
-            Experienced in backend (Go) and frontend (React.js, Next.js) development.
-          </p>
+            <span>
+              Experienced in backend (Go) and frontend (React.js, Next.js) development.
+            </span>
+          </div>
         </div>
 
         {/* Right: profile pic takes ~1/3 */}
@@ -50,10 +61,10 @@ export default function Home() {
       </div>
 
       {/* Rest of your page */}
-      <div className="mt-4 border-1 border-black-500  p-4 shadow-md bg-white ">
+      <div className="mt-2">
         <ProjectsList />
       </div>
-      <div className="mt-2 border-1 border-black-500  p-4 shadow-md bg-white ">
+      <div className="mt-2">
         <TechnicalSkill />
       </div>
     </div>
