@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import "./globals.css";
 import "./font.css";
 import Header from "./_components/header";
-
 // import { Source_Serif_4 } from 'next/font/google'
 import Footer from "./_components/footer";
 import { ThemeProvider } from "@/components/providers/theme-provider";
@@ -37,16 +36,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" >
-      <body className={` px-3 border`} >
-        <div className="flex flex-col min-h-screen " >
-          <div className="flex-grow">
-            <Header />
-            <main className="flex-grow">{children}</main>
+    <html lang="en" suppressHydrationWarning>
+      <body className="px-3 border">
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <div className="flex flex-col min-h-screen">
+            <div className="flex-grow">
+              <Header />
+              <main className="flex-grow">{children}</main>
+            </div>
+            <Footer />
           </div>
-          {/* </ThemeProvider> */}
-          <Footer />
-        </div>
+        </ThemeProvider>
       </body>
     </html>
   );

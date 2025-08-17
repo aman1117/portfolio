@@ -44,13 +44,13 @@ const Projects = () => {
           <div className="flex space-x-4 mb-3">
             <a
               href={project.links.live}
-              className="text-indigo-900  underline underline-offset-2"
+              className="text-indigo-900 underline underline-offset-2 dark:text-indigo-300"
             >
               Live
             </a>
             <a
               href={project.links.github}
-              className="text-indigo-900  underline underline-offset-2"
+              className="text-indigo-900 underline underline-offset-2 dark:text-indigo-300"
             >
               Github
             </a>
@@ -59,13 +59,15 @@ const Projects = () => {
             {project.details.map((detail, idx) => (
               <li
                 key={idx}
-                className="mb-2 text-black md:text-lg md:leading-5 leading-tight"
+                className="mb-2 text-foreground md:text-lg md:leading-5 leading-tight"
               >
                 {detail}
               </li>
             ))}
           </ul>
-          {index < projects.length - 1 && <hr className="border-gray-100" />}
+          {index < projects.length - 1 && (
+            <hr className="border-gray-100 dark:border-gray-800" />
+          )}
         </div>
       ))}
     </div>

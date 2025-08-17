@@ -18,10 +18,10 @@ const TechnicalSkill: React.FC = () => {
           <div key={index} className="flex items-start mb-2">
             <Dot size={32} className="flex-shrink-0" />
             <div>
-              <h3 className="text-black md:text-lg md:leading-5 leading-tight font-semibold">
+              <h3 className="text-foreground md:text-lg md:leading-5 leading-tight font-semibold">
                 {skill}
               </h3>
-              <p className="text-black md:text-lg text-sm md:leading-5 leading-tight">
+              <p className="text-foreground md:text-lg text-sm md:leading-5 leading-tight">
                 {skills[skill].join(' ')}
               </p>
             </div>

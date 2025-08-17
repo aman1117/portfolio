@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="border-t-2 mx-auto w-full max-w-2xl flex items-center justify-center m-2">
       <div className="flex items-center justify-center">
         <Link href="/">
-          <p className=" text-lg text-indigo-900 underline underline-offset-2">
+          <p className="text-lg text-indigo-900 underline underline-offset-2 dark:text-indigo-300">
             aman.sharma
           </p>
         </Link>

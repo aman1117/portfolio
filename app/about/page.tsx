@@ -21,41 +21,41 @@ const AboutMe: React.FC = () => {
           I&apos;ve built apps like <strong>ShareCode</strong> and <strong>Growing Buddies</strong>, and I&apos;m proficient in <strong>C++, Golang, React, Next.js, and modern web tech</strong>.
         </p>
         <p className="md:text-lg md:leading-5 leading-tight">
-          Here&apos;s a copy of my <a href="/Aman.pdf" className="text-indigo-900 underline" download>resume.</a>
+          Here&apos;s a copy of my <a href="/Aman.pdf" className="text-indigo-900 underline dark:text-indigo-300" download>resume.</a>
         </p>
       </section>
 
-      <hr className="my-2 border-gray-100" />
+      <hr className="my-2 border-gray-100 dark:border-gray-800" />
       <section className="mb-4">
         <h2 className="md:text-2xl text-xl  font-bold mb-1">Interests</h2>
         <p className="md:text-lg md:leading-5 leading-tight">
-          I enjoy graphic design, philosophical literature, origami, and calligraphy. I lead the design team for my university&apos;s fine arts society. Here&apos;s some <br /><a href="/about/interests" className="text-indigo-900 underline"> Stuff I Like</a>
+          I enjoy graphic design, philosophical literature, origami, and calligraphy. I lead the design team for my university&apos;s fine arts society. Here&apos;s some <br /><a href="/about/interests" className="text-indigo-900 underline dark:text-indigo-300"> Stuff I Like</a>
         </p>
       </section>
-      <hr className="my-2 border-gray-100" />
+      <hr className="my-2 border-gray-100 dark:border-gray-800" />
       <section className="mb-4">
         <h2 className="md:text-2xl text-xl font-bold mb-1">Find me online</h2>
         <div className="flex ml-8">
           <ul className="list-disc list-inside md:text-lg md:leading-5 leading-tight">
             <li>
-              I am <a href="https://github.com/aman1117" target="_blank" className="text-indigo-900 underline">aman1117</a> on GitHub
+              I am <a href="https://github.com/aman1117" target="_blank" className="text-indigo-900 underline dark:text-indigo-300">aman1117</a> on GitHub
             </li>
             <li>
-              I am <a href="https://leetcode.com/u/aman1117/" target="_blank" className="text-indigo-900 underline">aman1117</a> on Leetcode
+              I am <a href="https://leetcode.com/u/aman1117/" target="_blank" className="text-indigo-900 underline dark:text-indigo-300">aman1117</a> on Leetcode
             </li>
             <li>
-              I am <a href="https://codeforces.com/profile/aman1117" target="_blank" className="text-indigo-900 underline underline-offset-2">aman1117</a> on Codeforces
+              I am <a href="https://codeforces.com/profile/aman1117" target="_blank" className="text-indigo-900 underline underline-offset-2 dark:text-indigo-300">aman1117</a> on Codeforces
             </li>
             <li>
-              I am <a href="https://www.linkedin.com/in/aman1117/" target="_blank" className="text-indigo-900 underline">aman1117</a> on LinkedIn
+              I am <a href="https://www.linkedin.com/in/aman1117/" target="_blank" className="text-indigo-900 underline dark:text-indigo-300">aman1117</a> on LinkedIn
             </li>
             <li>
-              I am <a href="https://www.instagram.com/_aman1117_/" target="_blank" className="text-indigo-900 underline underline-offset-2">_aman1117_</a> on Instagram
+              I am <a href="https://www.instagram.com/_aman1117_/" target="_blank" className="text-indigo-900 underline underline-offset-2 dark:text-indigo-300">_aman1117_</a> on Instagram
             </li>
           </ul>
         </div>
       </section>
-      <hr className="my-2 border-gray-100" />
+      <hr className="my-2 border-gray-100 dark:border-gray-800" />
       <section className="mb-4">
         <h2 className="md:text-2xl text-xl font-bold mb-1">The Site</h2>
         <p className="md:text-lg md:leading-5 leading-tight">

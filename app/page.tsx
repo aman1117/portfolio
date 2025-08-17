@@ -8,7 +8,7 @@ export default function Home() {
       <div className="flex items-start justify-between">
         {/* Left: text takes ~2/3 */}
         <div className="w-2/3 pr-4">
-          <div className="text-black text-base leading-tight">
+          <div className="text-foreground text-base leading-tight">
             <span>
               This is the homepage of <span className="font-bold">Aman Sharma</span>.
             </span>
@@ -35,7 +35,7 @@ export default function Home() {
             <br />
             <hr className="m-.5 border-transparent" />
             <span>
-              <span className="font-bold text-[#808080]">Newbie</span> at Codeforces 
+              <span className="font-bold text-[#808080] dark:text-gray-400">Newbie</span> at Codeforces
               <img
                 src="/codeforces_logo.png"
                 alt="Codeforces Logo"
