@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ThemeToggle } from "./theme-toggle";
 
 const Header = () => {
   return (
@@ -8,7 +9,7 @@ const Header = () => {
           {/* <div className="md:pb-4 pb-3 pt-1"> */}
           <div className="flex gap-2 items-center justify-center">
             <Link href="/">
-              <p className="md:text-lg text-indigo-900 font-bold underline underline-offset-2">
+              <p className="md:text-lg text-primary font-bold underline underline-offset-2">
                 aman.sharma
               </p>
             </Link>
@@ -16,7 +17,7 @@ const Header = () => {
           <div className="flex gap-2 items-center justify-center">
             <div>
               <Link href="/about">
-                <p className="md:text-lg underline text-indigo-900 underline-offset-2">
+                <p className="md:text-lg underline text-primary underline-offset-2">
                   about
                 </p>
               </Link>
@@ -26,7 +27,7 @@ const Header = () => {
                 href="/projects
           "
               >
-                <p className="md:text-lg underline text-indigo-900 underline-offset-2">
+                <p className="md:text-lg underline text-primary underline-offset-2">
                   projects
                 </p>
               </Link>
@@ -36,18 +37,19 @@ const Header = () => {
                 href="/experience
           "
               >
-                <p className="md:text-lg underline text-indigo-900 underline-offset-2">
+                <p className="md:text-lg underline text-primary underline-offset-2">
                   exp
                 </p>
               </Link>
             </div>
             <div>
               <Link href="/contact">
-                <p className="md:text-lg underline text-indigo-900 underline-offset-2">
+                <p className="md:text-lg underline text-primary underline-offset-2">
                   contact me
                 </p>
               </Link>
             </div>
+            <ThemeToggle />
           </div>
         </div>
       </div>
