@@ -14,7 +14,13 @@ const ContactPage: React.FC = () => {
                     <p className="text-sm mb-4 italic"><strong>Bangalore, onsite</strong></p>
                     <ul className="list-disc list-inside mt-2 space-y-1">
                         <li className="mb-2 text-black md:text-lg md:leading-5 leading-tight">
-                            Refactored and cleaned up backend redundant lags used for launching new feature using <strong>Optimizely</strong>.
+                            Improved security by removing decrypted driver&apos;s license data from backend flows; ensured only the encrypted value was stored and applied runtime decryption when required, preventing sensitive PII from persisting across the application.
+                        </li>
+                        <li className="mb-2 text-black md:text-lg md:leading-5 leading-tight">
+                            Built an API enhancement for the Product Routing Service (PRS) to return decline reasons for products tied to a given policyId, improving transparency for both consumers and partners.
+                        </li>
+                        <li className="mb-2 text-black md:text-lg md:leading-5 leading-tight">
+                            Enabled partners to understand commission changes when PRS rerouted users to lower-commission products, while simplifying internal debugging of declined product flows.
                         </li>
                     </ul>
                 </div>
