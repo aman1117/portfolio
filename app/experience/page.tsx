@@ -10,7 +10,7 @@ const ExperiencePage: React.FC = () => {
                         <img src="/ethos_logo.jpg" alt="Ethos Logo" className="w-7 h-7 mr-2 rounded" />
                         <h2 className="text-2xl font-semibold">Ethos, Software Engineer</h2>
                     </div>
-                    <p className="text-sm italic"><strong>June 2025 – Present</strong></p>
+                    <p className="text-sm italic"><strong>June 2025 – Dec 2025</strong></p>
                     <p className="text-sm mb-4 italic"><strong>Bangalore, onsite</strong></p>
                     <ul className="list-disc list-inside mt-2 space-y-1">
                         <li className="mb-2 text-black md:text-lg md:leading-5 leading-tight">
