@@ -1,11 +1,11 @@
 import React from 'react';
 
-const ContactPage: React.FC = () => {
+const ExperiencePage: React.FC = () => {
     return (
         <div className="max-w-2xl mx-auto mt-2 mb-10 w-full h-full flex flex-col ">
             <p className="text-4xl font-bold mb-3 mr-1">Experience</p>
             <div className="flex flex-col gap-4">
-                <div >
+                <div>
                     <div className="flex items-center mb-2">
                         <img src="/ethos_logo.jpg" alt="Ethos Logo" className="w-7 h-7 mr-2 rounded" />
                         <h2 className="text-2xl font-semibold">Ethos, Software Engineer</h2>
@@ -22,22 +22,37 @@ const ContactPage: React.FC = () => {
                         <li className="mb-2 text-black md:text-lg md:leading-5 leading-tight">
                             Enabled partners to understand commission changes when PRS rerouted users to lower-commission products, while simplifying internal debugging of declined product flows.
                         </li>
+                        <li className="mb-2 text-black md:text-lg md:leading-5 leading-tight">
+                            Scaffolded the document-service microservice that underpins document generation across Ethos, setting up core APIs, configuration, and deployment wiring for future feature work.
+                        </li>
+                        <li className="mb-2 text-black md:text-lg md:leading-5 leading-tight">
+                            Refactored the legacy Bundle Service into a standalone microservice powered by action flows, simplifying the addition of new bundles such as LGA AFLAC and IUL CHOICE by running bundle-type specific create and accept actions.
+                        </li>
+                        <li className="mb-2 text-black md:text-lg md:leading-5 leading-tight">
+                            Upgraded the legacy priority-queue worker to a round-robin design and scaled workers so each is responsible for its own subset of queues, reducing starvation and handling higher queue loads more reliably.
+                        </li>
+                        <li className="mb-2 text-black md:text-lg md:leading-5 leading-tight">
+                            Migrated legacy in-process HTML-to-PDF conversion to a dedicated html-to-pdf service, improving conversion latency from seconds to milliseconds and achieving a 3–4x speedup.
+                        </li>
+                        <li className="mb-2 text-black md:text-lg md:leading-5 leading-tight">
+                            Deployed the pdf-hub microservice to production, critical for unlock and HTML-to-PDF operations, and added Datadog monitors and SLOs to improve reliability and visibility.
+                        </li>
                     </ul>
                 </div>
                 <hr className="m-.5 border-gray-100" />
-                <div >
+                <div>
                     <div className="flex items-center mb-2">
                         <img src="/shipsy_logo.jpeg" alt="Shipsy Logo" className="w-7 h-7 mr-2 rounded" />
                         <h2 className="text-2xl font-semibold">Shipsy, Software Engineer Intern</h2>
                     </div>
-                    <p className="text-sm   italic"><strong>Jan 2025 - May 2025</strong></p>
-                    <p className="text-sm  mb-4 italic"><strong> Gurgaon, onsite</strong></p>
+                    <p className="text-sm italic"><strong>Jan 2025 - May 2025</strong></p>
+                    <p className="text-sm mb-4 italic"><strong>Gurgaon, onsite</strong></p>
                     <ul className="list-disc list-inside mt-2 space-y-1">
                         <li className="mb-2 text-black md:text-lg md:leading-5 leading-tight">
                             Developed a comprehensive finance mobile web view UI for <strong>QuipUp</strong>, integrating APIs for riders to access their financial information with adaptable client-specific configurations.
                         </li>
                         <li className="mb-2 text-black md:text-lg md:leading-5 leading-tight">
-                            Optimized bulk pickup processing by implementing <code className='bg-gray-50 border rounded-sm'>Promise.all</code> for concurrent conflict resolution and database operations, resulting in a <strong>3x speedup</strong> of API performance.
+                            Optimized bulk pickup processing by implementing <code className="bg-gray-50 border rounded-sm">Promise.all</code> for concurrent conflict resolution and database operations, resulting in a <strong>3x speedup</strong> of API performance.
                         </li>
                         <li className="mb-2 text-black md:text-lg md:leading-5 leading-tight">
                             Delivered a <strong>hyper-local phone-exchange module</strong> for Flipkart, enabling doorstep device swaps in <strong>10–15 minutes</strong> through real-time assessment checks.
@@ -52,4 +67,4 @@ const ContactPage: React.FC = () => {
     );
 };
 
-export default ContactPage; 
+export default ExperiencePage;
