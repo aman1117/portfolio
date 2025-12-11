@@ -15,7 +15,7 @@ export default function Home() {
             <br />
             <hr className="m-.5 border-transparent" />
             <span>
-              Software Engineer at <span className="font-bold">Microsoft</span>
+              Engineer at <span className="font-bold">Microsoft</span>
               <img
                 src="/microsoft_logo.png"
                 alt="Microsoft Logo"
