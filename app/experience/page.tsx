@@ -5,6 +5,27 @@ const ExperiencePage: React.FC = () => {
         <div className="max-w-2xl mx-auto mt-2 mb-10 w-full h-full flex flex-col ">
             <p className="text-4xl font-bold mb-3 mr-1">Experience</p>
             <div className="flex flex-col gap-4">
+                {/* Microsoft */}
+                {/* <div>
+                    <div className="flex items-center mb-2">
+                        <img
+                            src="/microsoft_logo.png"
+                            alt="Microsoft Logo"
+                            className="w-7 h-7 mr-2 rounded"
+                        />
+                        <h2 className="text-2xl font-semibold">Microsoft, Software Engineer</h2>
+                    </div>
+                    <p className="text-sm italic">
+                        <strong>Dec 2025 – Present</strong>
+                    </p>
+                    <p className="text-sm mb-4 italic">
+                        <strong>Hyderabad, onsite</strong>
+                    </p>
+                </div>
+
+                <hr className="m-.5 border-gray-100" /> */}
+
+                {/* Ethos */}
                 <div>
                     <div className="flex items-center mb-2">
                         <img src="/ethos_logo.jpg" alt="Ethos Logo" className="w-7 h-7 mr-2 rounded" />
@@ -39,7 +60,10 @@ const ExperiencePage: React.FC = () => {
                         </li>
                     </ul>
                 </div>
+
                 <hr className="m-.5 border-gray-100" />
+
+                {/* Shipsy */}
                 <div>
                     <div className="flex items-center mb-2">
                         <img src="/shipsy_logo.jpeg" alt="Shipsy Logo" className="w-7 h-7 mr-2 rounded" />
