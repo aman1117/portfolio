@@ -15,10 +15,10 @@ export default function Home() {
             <br />
             <hr className="m-.5 border-transparent" />
             <span>
-              Software Engineer at <span className="font-bold">Ethos</span>
+              Software Engineer at <span className="font-bold">Microsoft</span>
               <img
-                src="/ethos_logo.jpg"
-                alt="Ethos Logo"
+                src="/microsoft_logo.png"
+                alt="Microsoft Logo"
                 className="inline-block h-5 w-5 ml-1 align-text-bottom"
               />
             </span>
