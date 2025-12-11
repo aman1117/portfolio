@@ -35,16 +35,6 @@ export default function Home() {
             <br />
             <hr className="m-.5 border-transparent" />
             <span>
-              <span className="font-bold text-[#808080]">Newbie</span> at Codeforces 
-              <img
-                src="/codeforces_logo.png"
-                alt="Codeforces Logo"
-                className="inline-block h-5 w-5 ml-1 align-text-bottom"
-              />
-            </span>
-            <br />
-            <hr className="m-.5 border-transparent" />
-            <span>
               Experienced in backend (Go) and frontend (React.js, Next.js) development.
             </span>
           </div>
