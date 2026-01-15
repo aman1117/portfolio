@@ -2,33 +2,23 @@ import React from "react";
 
 const projects = [
   {
-    title: "SHARECODE",
+    title: "GROWTHTRACKER",
     technologies:
-      "Next.js 13, Golang, Rust, PostgreSQL, CloudFlare R2, Redis, Tailwind",
+      "React, TypeScript, Go, PostgreSQL, Redis, WebSocket, Docker, Azure",
     links: {
-      live: "https://shc-frontend-two.vercel.app/",
-      github: "https://github.com/aman1117/shc-backend",
+      live: "#",
+      github: "#",
     },
     details: [
-      "Developed a file-sharing service with a backend using Go and PostgreSQL, implementing JWT authentication and integrating Cloudflare R2 for file storage.",
-      "Created a CLI client in Rust for seamless interaction with the service, enabling terminal-based file upload, download, and sharing.",
-      "Launched a web interface for public file viewing and downloading, allowing link-based sharing with customizable permissions.",
-      "Implemented subscription-based access control with daily read and write limits, using cron jobs to reset limits, enhancing user experience and service reliability.",
-    ],
-  },
-  {
-    title: "GROWING BUDDIES",
-    technologies: "Next.js 13, React, Convex, Tailwind",
-    links: {
-      live: "https://growing-buddies-seven.vercel.app/",
-      github: "https://github.com/aman1117/growing_buddies",
-    },
-    details: [
-      "Developed a full-stack Notion clone with a Notion-style editor, cover images, nested documents, public publishing, and real-time updates.",
-      "Real-time Database Integration: Integrated a real-time database for dynamic data updates.",
-      "Notion-Style Editor: Developed a user-friendly editor for content creation and organization.",
-      "Mobile Responsiveness: Designed a responsive interface for smartphones and tablets.",
-      "File Management: Enabled file upload, delete, replace, and recovery features.",
+      "Built a scalable Go backend using clean architecture (handlers/services/repositories) for clear separation of concerns.",
+      "Developed a responsive React 19 + TypeScript PWA with Zustand state management and push notifications.",
+      "Designed REST APIs in Go (Fiber) with JWT auth, middleware (CORS, rate limiting), and OpenAPI docs.",
+      "Implemented real-time notifications via WebSockets with Redis-backed connection/session tracking.",
+      "Built a reliable push pipeline using Web Push and Azure Service Bus for message delivery.",
+      "Integrated cloud storage (Azure Blob) and Neon PostgreSQL (serverless) with Redis caching.",
+      "Implemented structured logging with Axiom for centralized observability and production debugging.",
+      "Shipped engagement features including streaks, badges, and social interactions (follow/like/feeds).",
+      "Containerized local dev with Docker Compose for consistent PostgreSQL/Redis/Azurite environments.",
     ],
   },
 ];

@@ -11,14 +11,9 @@ const ProjectsList: React.FC = () => {
   // Define your projects using an array of objects
   const projects: Project[] = [
     {
-      name: 'ShareCode',
-      description: 'Created a file-sharing app using Go and PostgreSQL, Added JWT auth and Cloudflare R2 for storage.',
-      link: 'https://shc-frontend-two.vercel.app/',
-    },
-    {
-      name: 'Growing Buddies',
-      description: 'Built a Notion-like app with rich text editing, nested docs, public sharing, and live updates.',
-      link: 'https://growing-buddies-seven.vercel.app/',
+      name: 'GrowthTracker',
+      description: 'Built a scalable habit tracking PWA with Go backend, React 19 frontend, real-time WebSocket notifications, and cloud integrations.',
+      link: '#',
     },
   ];
 

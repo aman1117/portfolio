@@ -18,7 +18,7 @@ const AboutMe: React.FC = () => {
           Currently at <strong>Ethos</strong>, I&apos;m <strong>streamlining backend workflows</strong> for feature launches using <strong>Optimizely</strong>.
         </p>
         <p className="md:text-lg md:leading-5 my-4 leading-tight">
-          I&apos;ve built apps like <strong>ShareCode</strong> and <strong>Growing Buddies</strong>, and I&apos;m proficient in <strong>C++, Golang, React, Next.js, and modern web tech</strong>.
+          I&apos;ve built apps like <strong>GrowthTracker</strong>, and I&apos;m proficient in <strong>C++, Golang, React, Next.js, and modern web tech</strong>.
         </p>
         <p className="md:text-lg md:leading-5 leading-tight">
           Here&apos;s a copy of my <a href="/Aman.pdf" className="text-indigo-900 underline" download>resume.</a>
