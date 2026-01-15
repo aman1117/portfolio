@@ -15,7 +15,7 @@ const projects = [
       "Designed REST APIs in Go (Fiber) with JWT auth, middleware (CORS, rate limiting), and OpenAPI docs.",
       "Implemented real-time notifications via WebSockets with Redis-backed connection/session tracking.",
       "Built a reliable push pipeline using Web Push and Azure Service Bus for message delivery.",
-      "Integrated cloud storage (Azure Blob) and Neon PostgreSQL (serverless) with Redis caching.",
+      "Integrated cloud storage (Azure Blob) and Azure PostgreSQL (serverless) with Redis caching.",
       "Implemented structured logging with Axiom for centralized observability and production debugging.",
       "Shipped engagement features including streaks, badges, and social interactions (follow/like/feeds).",
       "Containerized local dev with Docker Compose for consistent PostgreSQL/Redis/Azurite environments.",
