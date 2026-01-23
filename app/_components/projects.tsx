@@ -13,7 +13,7 @@ const ProjectsList: React.FC = () => {
     {
       name: 'GrowthTracker',
       description: 'Built a scalable habit tracking PWA with Go backend, React 19 frontend, real-time WebSocket notifications, and cloud integrations.',
-      link: '#',
+      link: 'https://trackgrowth.in',
     },
   ];
 
