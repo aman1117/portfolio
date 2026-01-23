@@ -6,8 +6,8 @@ const projects = [
     technologies:
       "React, TypeScript, Go, PostgreSQL, Redis, WebSocket, Docker, Azure",
     links: {
-      live: "#",
-      github: "#",
+      live: "https://trackgrowth.in",
+      github: "https://github.com/aman1117/growth-tracker",
     },
     details: [
       "Built a scalable Go backend using clean architecture (handlers/services/repositories) for clear separation of concerns.",
