@@ -25,22 +25,22 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className=" mx-auto max-w-2xl mt-1 ">
+    <div className="mx-auto max-w-2xl mt-1">
       <h1 className="text-4xl font-bold mb-4">Projects</h1>
       {projects.map((project, index) => (
         <div key={index} className="mb-8">
           <h2 className="text-2xl font-semibold mb-2">{project.title}</h2>
-          <p className="text-sm  mb-2 italic">{project.technologies}</p>
+          <p className="text-sm mb-2 italic text-muted-foreground">{project.technologies}</p>
           <div className="flex space-x-4 mb-3">
             <a
               href={project.links.live}
-              className="text-indigo-900  underline underline-offset-2"
+              className="text-indigo-700 dark:text-indigo-400 underline underline-offset-2"
             >
               Live
             </a>
             <a
               href={project.links.github}
-              className="text-indigo-900  underline underline-offset-2"
+              className="text-indigo-700 dark:text-indigo-400 underline underline-offset-2"
             >
               Github
             </a>
@@ -49,13 +49,13 @@ const Projects = () => {
             {project.details.map((detail, idx) => (
               <li
                 key={idx}
-                className="mb-2 text-black md:text-lg md:leading-5 leading-tight"
+                className="mb-2 text-foreground md:text-lg md:leading-5 leading-tight"
               >
                 {detail}
               </li>
             ))}
           </ul>
-          {index < projects.length - 1 && <hr className="border-gray-100" />}
+          {index < projects.length - 1 && <hr className="border-border" />}
         </div>
       ))}
     </div>

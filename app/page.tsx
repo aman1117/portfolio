@@ -8,7 +8,7 @@ export default function Home() {
       <div className="flex items-start justify-between">
         {/* Left: text takes ~2/3 */}
         <div className="w-2/3 pr-4">
-          <div className="text-black text-base leading-tight">
+          <div className="text-foreground text-base leading-tight">
             <span>
               This is the homepage of <span className="font-bold">Aman Sharma</span>.
             </span>
@@ -25,11 +25,11 @@ export default function Home() {
             <br />
             <hr className="m-.5 border-transparent" />
             <span>
-              <span className="font-bold ">Knight</span> at LeetCode
+              <span className="font-bold">Knight</span> at LeetCode
               <img
                 src="/leetcode_logo.png"
                 alt="LeetCode Logo"
-                className="inline-block h-5 w-5 ml-1 align-text-bottom"
+                className="inline-block h-5 w-5 ml-1 align-text-bottom dark:brightness-110"
               />
             </span>
             <br />

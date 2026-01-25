@@ -37,16 +37,22 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" >
-      <body className={` px-3 border`} >
-        <div className="flex flex-col min-h-screen " >
-          <div className="flex-grow">
-            <Header />
-            <main className="flex-grow">{children}</main>
+    <html lang="en" suppressHydrationWarning>
+      <body className="px-3 border border-border bg-background text-foreground">
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <div className="flex flex-col min-h-screen">
+            <div className="flex-grow">
+              <Header />
+              <main className="flex-grow">{children}</main>
+            </div>
+            <Footer />
           </div>
-          {/* </ThemeProvider> */}
-          <Footer />
-        </div>
+        </ThemeProvider>
       </body>
     </html>
   );

@@ -27,12 +27,12 @@ const TechnicalSkill: React.FC = () => {
       <h2 className="md:text-4xl text-4xl font-semibold mb-3"> Technical Skills</h2>
       {Object.keys(skills).map((skill, index) => (
         <div key={index} className="flex items-start mb-2">
-          <Dot size={32} className="flex-shrink-0" />
+          <Dot size={32} className="flex-shrink-0 text-foreground" />
           <div>
-            <h3 className="text-black md:text-lg md:leading-5 leading-tight font-semibold">
+            <h3 className="text-foreground md:text-lg md:leading-5 leading-tight font-semibold">
               {skill}
             </h3>
-            <p className="text-black md:text-lg text-sm md:leading-5 leading-tight">
+            <p className="text-foreground md:text-lg text-sm md:leading-5 leading-tight">
               {skills[skill].join(' ')}
             </p>
           </div>
