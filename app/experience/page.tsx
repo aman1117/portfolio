@@ -6,7 +6,7 @@ const ExperiencePage: React.FC = () => {
             <p className="text-4xl font-bold mb-3 mr-1">Experience</p>
             <div className="flex flex-col gap-4">
                 {/* Microsoft */}
-                {/* <div>
+                <div>
                     <div className="flex items-center mb-2">
                         <img
                             src="/microsoft_logo.png"
@@ -15,15 +15,23 @@ const ExperiencePage: React.FC = () => {
                         />
                         <h2 className="text-2xl font-semibold">Microsoft, Software Engineer</h2>
                     </div>
-                    <p className="text-sm italic">
+                    <p className="text-sm italic text-muted-foreground">
                         <strong>Dec 2025 – Present</strong>
                     </p>
-                    <p className="text-sm mb-4 italic">
+                    <p className="text-sm mb-4 italic text-muted-foreground">
                         <strong>Hyderabad, onsite</strong>
                     </p>
+                    <ul className="list-disc list-inside mt-2 space-y-1">
+                        <li className="mb-2 text-foreground md:text-lg md:leading-5 leading-tight">
+                            Built <strong>Azure Portal UI</strong> for <strong>Cost Management granularity</strong> in <strong>Recovery Services Vault</strong>, improving backup and recovery cost visibility.
+                        </li>
+                        <li className="mb-2 text-foreground md:text-lg md:leading-5 leading-tight">
+                            Authored <strong>BVTs</strong> for <strong>ESAN workflows</strong> in Azure Portal (<strong>backup</strong>, <strong>restore</strong>, <strong>delete</strong>) to catch regressions early.
+                        </li>
+                    </ul>
                 </div>
 
-                <hr className="m-.5 border-border" /> */}
+                <hr className="m-.5 border-border" />
 
                 {/* Ethos */}
                 <div>
