@@ -15,7 +15,10 @@ const AboutMe: React.FC = () => {
           At <strong>Shipsy</strong>, I developed <strong>finance and logistics modules</strong>, <strong>optimized API performance by 3x</strong>, and delivered real-time solutions for clients like <strong>Flipkart and Movin</strong>.
         </p>
         <p className="md:text-lg md:leading-5 my-4 leading-tight">
-          Currently at <strong>Ethos</strong>, I&apos;m <strong>streamlining backend workflows</strong> for feature launches using <strong>Optimizely</strong>.
+          At <strong>Ethos</strong>, I built <strong>microservices</strong> (document-service, pdf-hub), improved <strong>PII security</strong>, and achieved a <strong>3–4x speedup</strong> by migrating legacy HTML-to-PDF conversion.
+        </p>
+        <p className="md:text-lg md:leading-5 my-4 leading-tight">
+          Currently at <strong>Microsoft</strong>, I&apos;m building <strong>Azure Portal UI</strong> for <strong>Cost Management</strong> in <strong>Recovery Services Vault</strong> and authoring <strong>BVTs</strong> for <strong>ESAN workflows</strong>.
         </p>
         <p className="md:text-lg md:leading-5 my-4 leading-tight">
           I&apos;ve built apps like <strong>GrowthTracker</strong>, and I&apos;m proficient in <strong>C++, Golang, React, Next.js, and modern web tech</strong>.
